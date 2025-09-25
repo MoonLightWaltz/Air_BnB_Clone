@@ -1,4 +1,5 @@
 $color-primary: red;
+$color-gray: gray;
 
 *,
 *::after,
@@ -48,4 +49,39 @@ html {
 
 a:link {
   color: black;
+}
+
+.form__section {
+  margin: 7.5rem 100rem 0rem 7.5rem;
+  border: 0.1rem solid lightgray;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#location {
+  display: block;
+  width: 97%;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 0.1rem solid gray;
+  font-size: 1.5rem;
+}
+
+.location__label {
+  position: absolute;
+  left: 10.5rem;
+  top: 36rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.form__title {
+  font-size: 4rem;
+}
+
+.form__subtext {
+  font-size: 2rem;
+  color: $color-gray;
 }
